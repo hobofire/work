@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top {
+    width: 1903px;
+    height: 35px;
+    background: blue;
+}
+#container{
+    margin:0 auto;
+}
+#banner{ 
+    width: 782px;
+    height: 199px;
+    margin:0 auto;
+    background: yellow;
+}
+#nav{
+    width: 785px;
+    height: 35px;
+    margin:0 auto;
+    background: black;
+}
+#nav-b{
+    width: 780px;
+    height: 15px;
+    margin:o auto;
+    background: #fff;
+}
+#main{
+    width: 780px;
+    height: 400px;
+    margin:0 auto;
+    background: #123;
+}
+#left{
+    width: 289px;
+    height: ;
+    float: left;
+    background: #456;
+}
+#center{
+    width: 289px;
+    height: ;
+    float: left;
+    background: #789;
+}
+#right{
+    width: 196px;
+    height: ;
+    float: left;
+    background: yellow;
+}
+#img-news{
+    width: 289px;
+    height: 203px;
+    background: green;
+}
+.text-1{
+    width: 289px;
+    height: 197px;
+    background: red;
+}
+.text-2{
+    width: 289px;
+    height: 203px;
+    height: blue;
+}
+#sjgk{
+    width: 196px;
+    height: 230px;
+    background: #DDD;
+}
+#yqlj{
+    width: 196px;
+    height: 196px;
+    background: yellow;
+}
+#footer{
+    width: 1903px;
+    height: 35px;
+    background: blue;
+}
