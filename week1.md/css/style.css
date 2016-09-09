@@ -8,7 +8,7 @@ a{
 #top {
     width: 1903px;
     height: 35px;
-    line-height: 30px;
+    line-height: 35px;
     background: url(../images/top.jpg) repeat-x;
 }
 #welcome{
@@ -18,8 +18,11 @@ a{
     line-height: 35px;
     color: white;
 }
+#time{
+    font-size: 14px;
+}
 #container{
-    background:url(../images/bg.jpg) repeat-x; 
+    background:url(../images/bg.jpg)  #efeeed repeat-x; 
 }
 #banner{ 
     width: 782px;
@@ -33,14 +36,26 @@ a{
     margin:0 auto;
     background: url(../images/nav-bg.jpg) repeat-x;
 }
+#nav ul{
+    width: 720px;
+    height: 35px;
+    margin: 0 auto;
+}
 #nav li{
+    height: 35px;
+    width: 120px;
+    line-height: 35px;
+    text-align: center;
     float: left;
     list-style: none;
-    line-height: 32px;
-    margin-right: 70px;
+    font-family: arial;
 }
 #nav li a{
     color:white;
+    font-family:arial;
+}
+#nav li:hover{
+    background-color:#3c98c9;
 }
 #nav-b{
     width: 780px;
@@ -190,7 +205,7 @@ a{
     background:url(../images/li-log.jpg) no-repeat;
 }
 #footer{
-    width: 1903px;
+    width: 100%;/*100%和1093px是有区别的 缩小时候*/
     height: 35px;
     background: url(../images/footer-bg.jpg) repeat-x;
     text-align: center;
