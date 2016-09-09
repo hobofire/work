@@ -8,9 +8,15 @@ a{
 #top {
     width: 1903px;
     height: 35px;
-    text-align: center;
     line-height: 30px;
     background: url(../images/top.jpg) repeat-x;
+}
+#welcome{
+    width: 780px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+    color: white;
 }
 #container{
     background:url(../images/bg.jpg) repeat-x; 
@@ -25,7 +31,6 @@ a{
     width: 785px;
     height: 35px;
     margin:0 auto;
-    
     background: url(../images/nav-bg.jpg) repeat-x;
 }
 #nav li{
@@ -56,13 +61,26 @@ a{
 #main ul li{
     font-size:13px;
 }
+.more1,.more2{
+    font-weight: bold;
+}
 .more1{
     float:right;
+    font-size: 12px;
+    padding-right: 22px;
+    line-height: 21px;
+    color:white;
 }
-#main a{
+.more1 a{
+    color:white;
+}
+.more1 a:hover{
+    color: black;
+}
+#main ul a{
     color:black;
 }
-#main a:hover{
+#main ul a:hover{
     color: red;
     text-decoration: underline;
 }
@@ -107,6 +125,13 @@ a{
     float:right;
     line-height: 30px;
     padding-right: 10px;
+    font-size: 12px;
+}
+.more2 a{
+    color:black;
+}
+.more2 a:hover{
+    color:red;
 }
 #sjgg{
     width: 196px;
@@ -138,7 +163,6 @@ a{
     margin: 25px;
 }
 .text-1{
-    padding-top: 23px;
     width: 280px;
     height: 170px;
     background: ; 
@@ -169,9 +193,10 @@ a{
     width: 1903px;
     height: 35px;
     background: url(../images/footer-bg.jpg) repeat-x;
+    text-align: center;
 }
 #footer a{
-    color:white;
+    color: white;
 }
 #footer a:hover{
     color:red;
@@ -179,8 +204,7 @@ a{
 #footer p{
     width: 780px;
     height: 35px;
-    text-align: center;
-    line-height: 30px;
     margin: 0 auto;
+    line-height: 30px;
     color: white;
 }
