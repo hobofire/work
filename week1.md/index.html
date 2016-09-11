@@ -1,9 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//Dli XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/Dli/xhtml1-transitional.dli">
-
-<html lang="zh-cnm-Hans">
+<!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
-        <meta name="author" content="郑智韦">
         <title>长江大学审计处</title>
         <link  rel="stylesheet" type="text/css" href="./css/style.css">
         <link  rel="icon" type="images/x-icon" href="./images/icon.ico">
@@ -13,6 +11,20 @@
         <div id="top">
             <div id="welcome">您好，欢迎访问长江大学审计处！
                 <span id="time">
+                    
+                    <script type="text/javascript">
+                        var d = new Date();	
+                        var weekday = new Array(7);
+                        weekday[0] = "星期日";
+                        weekday[1] = "星期一";
+                        weekday[2] = "星期二";
+                        weekday[3] = "星期三";
+                        weekday[4] = "星期四";
+                        weekday[5] = "星期五";
+                        weekday[6] = "星期六";
+                        var m = d.getMonth() + 1;
+                        document.write("今天是"+d.getFullYear()+"年"+m+"月"+d.getDate()+"日&nbsp;"+weekday[d.getDay()]);
+                    </script>
                 </span>    
             </div>
         </div>
@@ -115,13 +127,10 @@
                 </div>
             </div>
         </div>
-    
         <div id="footer">
-            <div id="inner">
-                版权所有：<a href="#">长江大学审计处</a> 联系方式：8060070 技术支持：<a href="#">长大在线</a>
+            <div id="footer-innner">
+                <p>版权所有: <a href="#">长江大学审计处</a> 联系方式 ：8060070 技术支持: <a href="#">长大在线</a></p>
             </div>
-        <script defer>
-            document.getElementById('time').innerText = '今天是' + new Date().getFullYear() + '年' + (new Date().getMonth() + 1) + '月' + new Date().getDate() + '日' + ' 星期' + '日一二三四五六'.charAt(new Date().getDay());
-        </script>
+        </div>
     </body>
 </html>
