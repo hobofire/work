@@ -7,7 +7,6 @@ li{
 #banner{
     width: 1120px;
     height: 174px;
-    margin: 0 auto;
     background: url(../images/badge.png) no-repeat left,url(../images/banner.png) no-repeat right;
 }
 #top h1{
@@ -22,14 +21,6 @@ li{
     color: #006869;
     padding-left: 160px;
 }
-#daohang{
-    color: aqua;
-}
-.open>.btn{background-color:#000!important;}
-.class1{
-    width: 360px;
-    height: 200px;
-}
 #main li{
     text-overflow:ellipsis;
     white-space:nowrap;
@@ -42,16 +33,8 @@ li{
 #main a:hover{
     text-decoration: underline;
 }
-
-
-
-.class2{
-    width: 360px;
-    height: 300px;
-    background:;
-}
 .heng li{
-    height: 42px;
+    height: 45px;
     background: url(../images/line-bg.png) repeat-x;
 }
 #tzgg{
@@ -74,8 +57,8 @@ li{
     height: 55px;
     background:url(../images/jyjx.png) no-repeat,url(../images/class2top-bg.png) repeat-x;
 }
-#img{
-    
+.carousel img{
+    width: 100%;
 }
 #kxyj{
     height: 55px;
@@ -92,11 +75,9 @@ li{
 #xyxw,#tzgg{
     padding-left: 40px;
 }
-
 #lower{
     width:100%;
     height: 200px;
-    margin: 0 auto;
     background: url("../images/link-bg.png");
 }
 .link{
@@ -126,35 +107,19 @@ li{
     background-color: #eee;
     color: #3d8da3;
 }
-#nav2 .navbar-nav{
-    margin: 0 auto;
-}
 
 #footer{
-    width: 100%;
     height: 120px;
-    background: url(../images/footer-bg.png);
+    background: url(../images/footer-bg.png) repeat-x;
 }
 #copyright{
-    width: 50%;
-    float:left;
     color: white;
 }
 #copyright a{
     color: white;
     text-decoration: none;
 }
-#twocode h5{
-    width: 10px;
-    font-size: 17px;
-    margin-left: 15px;
-    color: white;
-    padding-right: 74px;
-    margin-top: 28px;
-    float: left;
-}
 .code{
-    width:20;
     float: left;
 }
 
