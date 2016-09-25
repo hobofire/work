@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+#top {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/top.jpg) repeat-x;
+}
+#welcome{
+    width: 780px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+    color: white;
+}
+#time{
+    font-size: 14px;
+}
+#container{
+    background:url(../images/bg.jpg)  #efeeed repeat-x; 
+}
+#banner{ 
+    width: 780px;
+    height: 199px;
+    margin:0 auto;
+    background: url(../images/banner.jpg);
+}
+#nav{
+    width: 780px;
+    height: 35px;
+    margin:0 auto;
+    background: url(../images/nav-bg.jpg) repeat-x;
+}
+#nav ul{
+    width: 720px;
+    height: 35px;
+    margin: 0 auto;
+}
+#nav li{
+    height: 35px;
+    width: 120px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    font-family: arial;
+}
+#nav li a{
+    color:white;
+    font-family:arial;
+}
+#nav li:hover{
+    background-color: #3c98c9;
+}
+#nav-b{
+    width: 780px;
+    height: 15px;
+    margin:0 auto;
+    background: url(../images/nav-b.jpg) repeat-x;
+}
+#main{
+    width: 780px;
+    height: 400px;
+    margin:0 auto;
+    background: white;
+}
+#main a{
+    color: black;
+}
+#left{
+    border: 1px solid #5ABcEc;
+    float: left;
+}
+#path-nav{
+    font-weight: bolder;
+    height: 22px;
+    width: 548px;
+    line-height: 22px;
+    padding-left: 28px;
+    background: url(../images/li-log3.jpg) no-repeat 10px center;
+    border: 2px dashed #5ABcEc;
+}
+#list{
+    background-color: #F5F2EA;
+}
+#list ul{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#list li{
+    line-height: 28px;
+}
+#list li a{
+    padding-left: 18px;
+    background: url(../images/li-log4.jpg) no-repeat 0 center;
+}
+#list li .time{
+
+}
+#right{
+    width: 196px;
+    height: 400px;
+    float: right;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+#right ul{
+    padding-top:40px;
+}
+#right a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#zxxw{
+    height: 230px;
+    background: url(../images/zxxw.png) no-repeat;    
+}
+#zxxw li a{
+    padding-left: 22px;
+    line-height: 20px;
+    background:url(../images/li-log1.png) no-repeat;
+}
+#rdxw{
+    height: 230px;
+    background: url(../images/zxxw.png) no-repeat;  
+}
+#rdxw,#zxxw ul{
+    margin-left: 9px;
+}
+#rdxw li a{
+    padding-left: 25px;
+    line-height: 20px;
+    background:url(../images/li-log3.jpg) no-repeat;
+}
+#footer{
+    width: 100%;/*100%和1093px是有区别的 在缩小时候*/
+    height: 35px;
+    margin: 0 auto;
+    background: url(../images/footer-bg.jpg) repeat-x;
+}
+#footer a{
+    color: white;
+}
+#footer a:hover{
+    color:red;
+}
+#footer #inner{
+    width: 780px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+}

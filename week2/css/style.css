@@ -1,3 +1,6 @@
+*{
+    font-family: "Segoe UI", Arial, Helvetica, "Microsoft Jhenghei", "Hiragino Sans GB", "WenQuanYi Zen Hei", "Microsoft Yahei", SimHei, STHeiti, "WenQuanYi Micro Hei", sans-serif;
+}
 li{
     list-style: none;
 }
@@ -21,68 +24,113 @@ li{
     color: #006869;
     padding-left: 160px;
 }
+#nav1{
+    margin-bottom: 20px;
+}
+#main h3{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 305px;
+    height: 22px;
+    line-height: 0px;
+    float: left;
+}
+#main ul{
+    margin-left: -40px;
+}
+.more{
+    float: right;
+    height: 48px;
+    text-indent: -500%;
+    background: url(../images/more.png) no-repeat 0 center;
+    width: 20px;
+}
 #main li{
     text-overflow:ellipsis;
     white-space:nowrap;
     overflow:hidden;
+    line-height: 25px;
+}
+#lower ul{
+    text-overflow:ellipsis;
+    white-space:nowrap;
 }
 #main a{
     color:black;
     text-decoration: none;
 }
+#main span{
+    color: #006869;
+}
 #main a:hover{
     text-decoration: underline;
 }
-.heng li{
-    height: 45px;
-    background: url(../images/line-bg.png) repeat-x;
+#row1{
+    height: 258px;
+}
+#row2{
+    height: 228px;
+}
+.line li{
+    height: 37px;
+    border-bottom: 3px solid #006986;
 }
 #tzgg{
-    height: 29px;
-    background: url(../images/tzgg.png) no-repeat;
+    background: url(../images/tzgg.png) no-repeat,url(../images/row1-topbg.png) repeat-x;
 }
 #li1 li{
     padding-left: 20px;
-    background: url(../images/li1.png) no-repeat;
+    background: url(../images/li1.png) no-repeat 0 center;
 }
 #li2 li{
     padding-left: 20px;
-    background: url(../images/li2.png) no-repeat;
+    background: url(../images/li2.png) no-repeat 0 center;
 }
 #li3 li{
     padding-left: 20px;
-    background: url(../images/li3.png) no-repeat;
+    background: url(../images/li3.png) no-repeat 0 center;
 }
+
 #jyjx{
-    height: 55px;
-    background:url(../images/jyjx.png) no-repeat,url(../images/class2top-bg.png) repeat-x;
+    background:url(../images/jyjx.png) no-repeat,url(../images/row2-topbg.png) repeat-x;
 }
 .carousel img{
     width: 100%;
 }
+#tzgg,#xyxw{
+    height: 48px;
+}
+#xyxw,#tzgg h3{
+    text-align: center;
+}
+#jyjx,#kxyj,#ptjs{
+    height: 48px;
+}
 #kxyj{
-    height: 55px;
-    background:url(../images/kxyj.png) no-repeat,url(../images/class2top-bg.png) repeat-x;
+    background:url(../images/kxyj.png) no-repeat,url(../images/row2-topbg.png) repeat-x;
 }
 #xyxw{
-    height: 33px;
-    background: url(../images/xyxw.png) no-repeat;
+    background: url(../images/xyxw.png) no-repeat,url(../images/row1-topbg.png) repeat-x;
 }
 #ptjs{
-    height: 55px;
-    background: url(../images/ptjs.png) no-repeat,url(../images/class2top-bg.png) repeat-x;
-}
-#xyxw,#tzgg{
-    padding-left: 40px;
+    background: url(../images/ptjs.png) no-repeat,url(../images/row2-topbg.png) repeat-x;
 }
 #lower{
-    width:100%;
-    height: 200px;
+    width: 100%;
+    height: 160px;
     background: url("../images/link-bg.png");
 }
 .link{
-    height: 200px;
+    height: 160px;
     float: left;
+}
+.link ul{
+    height: 125px;
+    margin-top: 20px;
+}
+.link li{
+    height: 25px;
+    text-overflow: ellipsis;
 }
 .link a{
     color: black;
@@ -91,21 +139,31 @@ li{
     color: black;
 }
 .h{
-    float:left;
-    width: 40px;
-    height: 115px;
-    font-size: 30px;
+    float: left;
+    width: 50px;
+    height: 120px;
+    line-height: 52px;
+    padding: 8px 0 0 12px;
+    font-size: 28px;
+    color: #006986;
+    margin: 20px;
     background: url(../images/link.png) no-repeat top right;
 }
 #nav2 {
   background-color: #3d8da3;
   border-color: #eeeeee;
+  margin-bottom: 0px;
 }
 #nav2 .navbar-nav li a:hover,
 #nav2 .navber-nav li a:focus
 {
     background-color: #eee;
     color: #3d8da3;
+}
+#nav2 li{
+    height: 40px;
+    width: 193px;
+    text-align: center;
 }
 
 #footer{
@@ -120,11 +178,17 @@ li{
     text-decoration: none;
 }
 .code{
-    float: left;
+    position: relative;
 }
-
-
-
+.code h5{
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: white;
+}
+.code img{
+    margin-top: 10px;
+}
 
 
 
